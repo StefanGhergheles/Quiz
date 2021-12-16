@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    android:orientation="vertical"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_weight="1"
+        android:text="Category:"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_margin="10sp"
+        android:layout_weight="1"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="@color/white"
+        android:enabled="true"
+        android:inputType="textMultiLine"
+        android:text="Press here to start." />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btAnswer1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/roundedbutton"
+                android:backgroundTint="@color/black"
+                android:tag="1"
+                android:text="Answer"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btAnswer2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/roundedbutton"
+                android:backgroundTint="@color/black"
+                android:tag="2"
+                android:text="answer"
+                android:textColor="@color/white" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btAnswer3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/roundedbutton"
+                android:backgroundTint="@color/black"
+                android:tag="3"
+                android:text="Answer"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btAnswer4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:layout_weight="1"
+                android:background="@drawable/roundedbutton"
+                android:backgroundTint="@color/black"
+                android:tag="4"
+                android:text="answer"
+                android:textColor="@color/white" />
+        </TableRow>
+    </TableLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7sp"
+        android:gravity="center_horizontal|left"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btProgress1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/gray"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/btProgress2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/gray"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/btProgress3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/gray"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/btProgress4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/gray"
+            android:enabled="false" />
+
+        <Button
+            android:id="@+id/btProgress5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/gray"
+            android:enabled="false" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:layout_weight="1"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="@color/blue"
+        android:enabled="false"
+        android:text="Continue" />
+</LinearLayout>

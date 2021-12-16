@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_launcher_background"
+    android:backgroundTint="@color/purple_700"
+    android:padding="5dp"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:paddingRight="7dp"
+        android:paddingBottom="7dp">
+
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="7dp"
+            android:text="Category"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:paddingRight="7dp"
+        android:paddingBottom="7dp">
+
+        <Button
+            android:id="@+id/btQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/white"
+            android:padding="5dp"
+            android:text="Question" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:paddingRight="7dp"
+        android:paddingBottom="7dp">
+
+        <Button
+            android:id="@+id/btAnswer1"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/black"
+            android:maxWidth="150dp"
+            android:minWidth="150dp"
+            android:padding="5dp"
+            android:text="answer"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btAnswer2"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/black"
+            android:maxWidth="150dp"
+            android:minWidth="150dp"
+            android:padding="5dp"
+            android:text="answer"
+            android:textColor="@color/white" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:paddingRight="7dp"
+        android:paddingBottom="7dp">
+
+        <Button
+            android:id="@+id/btAnswer3"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/black"
+            android:maxWidth="150dp"
+            android:minWidth="150dp"
+            android:padding="5dp"
+            android:text="answer"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btAnswer4"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/black"
+            android:maxWidth="150dp"
+            android:minWidth="150dp"
+            android:padding="5dp"
+            android:text="answer"
+            android:textColor="@color/white" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:paddingRight="7dp"
+        android:paddingBottom="7dp">
+
+        <Button
+            android:id="@+id/btProgress1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/gray"
+            android:enabled="false"
+            android:padding="5dp"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="7dp" />
+
+        <Button
+            android:id="@+id/btProgress2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/gray"
+            android:enabled="false"
+            android:padding="5dp"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="7dp" />
+
+        <Button
+            android:id="@+id/btProgress3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/gray"
+            android:enabled="false"
+            android:padding="5dp"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="7dp" />
+
+        <Button
+            android:id="@+id/btProgress4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/gray"
+            android:enabled="false"
+            android:padding="5dp"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="7dp" />
+
+        <Button
+            android:id="@+id/btProgress5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3sp"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/gray"
+            android:enabled="false"
+            android:padding="5dp"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="7dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:paddingLeft="7dp"
+        android:paddingTop="7dp"
+        android:paddingRight="7dp"
+        android:paddingBottom="7dp">
+
+        <Button
+            android:id="@+id/btContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/roundedbutton"
+            android:backgroundTint="@color/blue"
+            android:enabled="false"
+            android:padding="5dp"
+            android:paddingLeft="7dp"
+            android:paddingTop="7dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="7dp"
+            android:text="continue" />
+    </TableRow>
+</TableLayout>
