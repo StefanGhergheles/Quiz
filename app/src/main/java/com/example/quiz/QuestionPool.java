@@ -125,7 +125,7 @@ public class QuestionPool {
         categories.add("Rap");
         categories.add("Anime");
         Collections.shuffle(categories);
-
+        System.out.println("im in getRandomCategory");
         return categories.get(1);
     }
 }
